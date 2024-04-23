@@ -63,9 +63,7 @@ yarn build
 Notice: A compatibility_date is required when publishing. Add the following to your wrangler.toml file
 ```
 
-to generate the `dist/` folder
-
-and then deploy and create a sentry map using:
+This will generate the `dist/` folder, now deploy to cloudflare and create a sentry map simply by using:
 
 ```
 yarn deploy
