@@ -10,9 +10,11 @@ https://sentry.io/
 
 `New Account > Welcome to Sentry`
 
-2. Install Sentry - Select `NODE.JS` as the platform (You are not really installing anything to your computer it's just setting up the sentry)
+2. Now you should be in this part at some point:
 
 https://YOURORGNAME.sentry.io/onboarding/select-platform/
+
+Install Sentry - Select `NODE.JS` as the platform (You are not really installing anything to your computer it's just setting up the sentry)
 
 3. Copy your DSN link from the code there some where, should look like this:
 https://YOUR@DSN.ingest.de.sentry.io/LINK
