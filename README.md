@@ -10,7 +10,7 @@ https://sentry.io/
 
 `New Account > Welcome to Sentry`
 
-2. Now you should be in this part at some point:
+2. Now you should be promted to select a platform at some point:
 
 https://YOURORGNAME.sentry.io/onboarding/select-platform/
 
