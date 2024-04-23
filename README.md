@@ -69,7 +69,7 @@ This will generate the `dist/` folder, now deploy to cloudflare and create a sen
 yarn deploy
 ```
 
-This will do the `create-sentry-release` and cloudflare deploy for you.
+This will do the `create-sentry-release` and `wrangler deploy` commands for you.
 
 Take note of the deployment URL you got, should be something like:
 
