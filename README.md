@@ -4,46 +4,46 @@ Sentry is important when you want to get notified on errors happening on your se
 
 # Prerequisite:
 
-1. Sign up for Sentry: (Requires a business email)
+## 1. Sign up for Sentry: (Requires a business email)
 
 https://sentry.io/
 
 `New Account > Welcome to Sentry`
 
-2. Now you should be promted to select a platform at some point:
+## 2. Now you should be promted to select a platform at some point:
 
 https://YOURORGNAME.sentry.io/onboarding/select-platform/
 
 Install Sentry - Select `NODE.JS` as the platform (You are not really installing anything to your computer it's just setting up the sentry)
 
-3. Copy your DSN link from the code there some where, should look like this:
+## 3. Copy your DSN link from the code there some where, should look like this:
 https://YOUR@DSN.ingest.de.sentry.io/LINK
 
-4. and go to Settings > Auth Tokens and click Create New Token named `main` for example:
+## 4. and go to Settings > Auth Tokens and click Create New Token named `main` for example:
 
 https://YOURORGNAME.sentry.io/settings/auth-tokens/
 
 `sntrys_YOUR_TOKEN_WILL_LOOK_LIKE_THIS`
 
-5. By now you should have the following information about your account:
+## 5. By now you should have the following information about your account:
 
 - YOURORGNAME
 - YOUR DSN LINK
 - YOUR AUTH TOKEN
 
-6. Update your DSN LINK in the wrangler.toml file
+## 6. Update your DSN LINK in the wrangler.toml file
 
-7. Update the AUTH TOKEN and ORG NAME in the package.json file (twice)
+## 7. Update the AUTH TOKEN and ORG NAME in the package.json file (twice)
 
 # Usage:
 
-1. Install:
+## 1. Install:
 
 ```
 yarn install
 ```
 
-2. Start the project locally and open it in the browser (b):
+## 2. Start the project locally and open it in the browser (b):
 
 ```
 yarn start
@@ -55,9 +55,9 @@ http://127.0.0.1:8787/
 Something went wrong! Team has been notified.
 ```
 
-3. Notice there is an error on purpose caused by line 13 in the `index.ts`
+## 3. Notice there is an error on purpose caused by line 13 in the `index.ts`
 
-4. You are ready to deploy to cloudflare, run:
+## 4. You are ready to deploy to cloudflare, run:
 
 ```
 yarn build
@@ -81,11 +81,11 @@ https://ProjectName.CloudflareName.workers.dev (You can easily set up a custom d
 
 you might be prompted to login via wrangler to your cloudflare account
 
-5. Check that your release has been uploaded: (You can change version 1.0.0 later)
+## 5. Check that your release has been uploaded: (You can change version 1.0.0 later)
 
 https://YOURORGNAME.sentry.io/releases/
 
-6. Open your issues panel and your deployment URL:
+## 6. Open your issues panel and your deployment URL:
 
 https://YOURORGNAME.sentry.io/issues/?referrer=sidebar
 
@@ -103,9 +103,9 @@ If you click the error, it even tells you what line of code it happened, which i
 
 ![alt text](image-1.png)
 
-7. Setup notifications for issues, sit back, relax and enjoy!
+## 7. Setup notifications for issues, sit back, relax and enjoy!
 
-Bonus:
+# Bonus:
 
 To delete issues simply Archive them, To see all issues go to:
 
