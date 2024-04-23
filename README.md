@@ -1,5 +1,7 @@
 Sentry is important when you want to get notified on errors happening on your serverless platform in real time.
 
+![alt text](image-1.png)
+
 # Prerequisite:
 
 1. Sign up for Sentry: (Requires a business email)
