@@ -2,13 +2,13 @@ Sentry is important when you want to get notified on errors happening on your se
 
 # Prerequisite:
 
-1. Sign up for Sentry: (Requires business email)
+1. Sign up for Sentry: (Requires a business email)
 
 https://sentry.io/
 
-New Account > Welcome to Sentry
+`New Account > Welcome to Sentry`
 
-2. Install Sentry - Select `NODE.JS` as the platform
+2. Install Sentry - Select `NODE.JS` as the platform (You are not really installing anything to your computer it's just setting up the sentry)
 
 https://YOURORGNAME.sentry.io/onboarding/select-platform/
 
@@ -29,7 +29,7 @@ https://YOURORGNAME.sentry.io/settings/auth-tokens/
 
 6. Update your DSN LINK in the wrangler.toml file
 
-7. Update the AUTH TOKEN and ORG NAME in the package.json file (2x (twice) here)
+7. Update the AUTH TOKEN and ORG NAME in the package.json file (twice)
 
 # Usage:
 
@@ -39,7 +39,7 @@ https://YOURORGNAME.sentry.io/settings/auth-tokens/
 yarn install
 ```
 
-2. Start the project locally and open in browser (b):
+2. Start the project locally and open it in the browser (b):
 
 ```
 yarn start
