@@ -110,3 +110,7 @@ If you click the error, it even tells you what line of code it happened, which i
 To delete issues simply Archive them, To see all issues go to:
 
 https://YOURORGNAME.sentry.io/issues/?query=&referrer=issue-list&statsPeriod=14d
+
+# Credits:
+
+Burgil, For figuring all of this out by himself and creating a tutorial about it so he and others can easily reuse this important thing to watch for project issues in real time
